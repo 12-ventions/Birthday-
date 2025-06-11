@@ -1,0 +1,141 @@
+```html
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>🎀 Sweet 19 Blossoms</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      font-family: 'Comic Sans MS', cursive;
+
+      color: #b30059;
+
+      text-align: center;
+
+      overflow: hidden;
+
+    }
+
+    .background-video {
+
+      position: fixed;
+
+      right: 0;
+
+      bottom: 0;
+
+      min-width: 100%;
+
+      min-height: 100%;
+
+      z-index: -1;
+
+    }
+
+    .content {
+
+      position: relative;
+
+      padding: 30px;
+
+    }
+
+    h1 {
+
+      font-size: 3em;
+
+      color: #ff66a3;
+
+    }
+
+    h2 {
+
+      font-size: 1.5em;
+
+      color: #cc0066;
+
+    }
+
+    .decor {
+
+      font-size: 2em;
+
+      animation: float 10s linear infinite;
+
+      white-space: nowrap;
+
+    }
+
+    @keyframes float {
+
+      0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+
+    }
+
+    video.birthday-video {
+
+      width: 80%;
+
+      border: 5px solid #ff99cc;
+
+      border-radius: 15px;
+
+      margin-top: 20px;
+
+      box-shadow: 0 0 15px #ff66b2;
+
+    }
+
+    audio {
+
+      display: none;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <video autoplay muted loop class="background-video">
+
+    <source src="background.mp4" type="video/mp4">
+
+  </video>
+
+  <div class="content">
+
+    <div class="decor">💖🌸💗🌼💖🌷💗🌺💖🌼</div>
+
+    <h1>Happy 19th Birthday!</h1>
+
+    <h2>Let the flowers bloom and the love float 🎉</h2>
+
+    <video class="birthday-video" controls autoplay loop>
+
+      <source src="birthday.mp4" type="video/mp4">
+
+    </video>
+
+    <audio autoplay loop>
+
+      <source src="birthday_music.mp3" type="audio/mp3">
+
+    </audio>
+
+  </div>
+
+</body>
+
+</html>
+```
